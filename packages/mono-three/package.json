@@ -1,6 +1,6 @@
 {
   "name": "@brianebill/mono-three",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "",
   "homepage": "https://github.com/brianebill/lerna/tree/master/packages/mono-three/",
   "bugs": {
@@ -25,8 +25,8 @@
   },
   "scripts": {},
   "dependencies": {
-    "@brianebill/mono-one": "^2.3.0",
-    "@brianebill/mono-two": "^2.3.0"
+    "@brianebill/mono-one": "^2.4.0",
+    "@brianebill/mono-two": "^2.4.0"
   },
   "publishConfig": {
     "access": "public"
