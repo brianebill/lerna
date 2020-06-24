@@ -1,18 +1,18 @@
 {
-  "name": "@azu/mono-two",
-  "version": "2.2.0",
+  "name": "@brianebill/mono-two",
+  "version": "2.3.0",
   "description": "",
-  "homepage": "https://github.com/azu/lerna-monorepo-github-actions-release/tree/master/packages/mono-two/",
+  "homepage": "https://github.com/brianebill/lerna/tree/master/packages/mono-two/",
   "bugs": {
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release/issues"
+    "url": "https://github.com/brianebill/lerna/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release.git",
+    "url": "https://github.com/brianebill/lerna.git",
     "directory": "packages/mono-two"
   },
   "license": "MIT",
-  "author": "azu",
+  "author": "brianebill",
   "files": [
     "bin/",
     "lib/",
@@ -25,7 +25,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "@azu/mono-one": "^2.2.0"
+    "@brianebill/mono-one": "^2.3.0"
   },
   "publishConfig": {
     "access": "public"

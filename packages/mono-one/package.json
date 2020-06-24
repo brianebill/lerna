@@ -1,14 +1,14 @@
 {
-  "name": "@azu/mono-one",
-  "version": "2.2.0",
+  "name": "@brianebill/mono-one",
+  "version": "2.3.0",
   "description": "",
-  "homepage": "https://github.com/azu/lerna-monorepo-github-actions-release/tree/master/packages/mono-one/",
+  "homepage": "https://github.com/azu/lerna/tree/master/packages/mono-one/",
   "bugs": {
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release/issues"
+    "url": "https://github.com/azu/lerna/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release.git",
+    "url": "https://github.com/azu/lerna.git",
     "directory": "packages/mono-one"
   },
   "license": "MIT",
