@@ -3,30 +3,30 @@
   "name": "root",
   "version": "1.0.0",
   "description": "Root",
-  "homepage": "https://github.com/azu/lerna-monorepo-github-actions-release",
+  "homepage": "https://github.com/brianebill/lerna",
   "bugs": {
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release/issues"
+    "url": "https://github.com/brianebill/lerna/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/lerna-monorepo-github-actions-release.git"
+    "url": "https://github.com/brianebill/lerna.git"
   },
   "license": "MIT",
-  "author": "azu",
+  "author": "brianebill",
   "workspaces": {
     "packages": [
       "packages/*"
     ]
   },
   "scripts": {
-    "versionup": "lerna version --conventional-commits --no-git-tag-version",
-    "versionup:patch": "lerna version patch --conventional-commits --no-git-tag-version",
-    "versionup:minor": "lerna version minor --conventional-commits --no-git-tag-version",
-    "versionup:major": "lerna version major --conventional-commits --no-git-tag-version",
-    "postversionup": "npm run commit-version",
-    "postversionup:patch": "npm run commit-version",
-    "postversionup:minor": "npm run commit-version",
-    "postversionup:major": "npm run commit-version",
+    "vup": "lerna version --conventional-commits --no-git-tag-version",
+    "vup:patch": "lerna version patch --conventional-commits --no-git-tag-version",
+    "vup:minor": "lerna version minor --conventional-commits --no-git-tag-version",
+    "vup:major": "lerna version major --conventional-commits --no-git-tag-version",
+    "postvup": "npm run commit-version",
+    "postvup:patch": "npm run commit-version",
+    "postvup:minor": "npm run commit-version",
+    "postvup:major": "npm run commit-version",
     "commit-version": "git add . && git commit -m \"chore(release): publish `node -p 'require(\"./lerna.json\").version'`\"",
     "release": "lerna publish from-package"
   },
